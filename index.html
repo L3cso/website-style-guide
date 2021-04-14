@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <head>
     <title>Website Design System</title>
-    <link rel="stylesheet" type="text/css" href="/style.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Playfair+Display:ital,wght@0,400;0,900;1,400&family=Roboto:ital,wght@0,400;0,900;1,400&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -9,15 +11,72 @@
         <h1>My Webstite Style Guide</h1>
     </header>
     <main>
+        <!--Beginning of Colors section-->
         <section>
             <h2>Colors</h2>
-            <div class="grayblue">
+            <div class="color grayblue">
                 <p>Gray Blue</p>
                 <p>hsl(200 100 33)</p>
+            </div>            <div class="color lightgray">
+                <p>Light Gray</p>
+                <p>hsl(200 5 80)</p>
+            </div>            <div class="color turque">
+                <p>Turque</p>
+                <p>hsl(180 100 33)</p>
+            </div>            <div class="color notgold">
+                <p>Not Gold</p>
+                <p>hsl(60 100 33)</p>
             </div>
         </section>
-        <section></section>
-        <section></section>
+        <!--beginning of Fonts section-->
+        <section>
+            <h2>Fonts</h2>
+            <div class="roboto font">
+                <p class="font-label">Roboto</p>
+                <p>The quick brown fox jumps over the lazy dog.</p>
+                <p class="bold">The quick brown fox jumps over the lazy dog.</p>
+                <p class="italic">The quick brown fox jumps over the lazy dog.</p>
+            </div>
+            <div class="playfair font">
+                <p class="font-label">Playfair Display</p>
+                <p>The quick brown fox jumps over the lazy dog.</p>
+                <p class="bold">The quick brown fox jumps over the lazy dog.</p>
+                <p class="italic">The quick brown fox jumps over the lazy dog.</p>
+            </div>
+            <div class="monoton font">
+                <p class="font-label">Monoton</p>
+                <p>The quick brown fox jumps over the lazy dog.</p>
+                <p class="bold">The quick brown fox jumps over the lazy dog.</p>
+                <p class="italic">The quick brown fox jumps over the lazy dog.</p>
+            </div>
+        </section>
+        <section class="textstyles">
+            <h2>Text Styles</h2>
+            <h1>H1: Main page heading</h1>
+            <ul>
+                <li>Font-weight: 900 (bold)</li>
+                <li>Font-size: 26px</li>
+                <li>Font-family: Monoton</li>
+            </ul>
+            <h2 id="h2">H2: Subheading</h2>
+            <ul>
+                <li>Font-weight: 500</li>
+                <li>Font-size: 18px</li>
+                <li>Font-family: Monoton</li>
+            </ul>
+            <p>P: Paragraph text</p>
+            <ul>
+                <li>Font-weight: 400 (regular)</li>
+                <li>Font-size: 14px</li>
+                <li>Font-family: Roboto</li>
+            </ul>
+            <blockquote>"Blockquote"</blockquote>
+            <ul>
+                <li>Font-weight: 900</li>
+                <li>Font-size: 26px</li>
+                <li>Font-family: Playfair Display</li>
+            </ul>
+        </section>
     </main>
     <footer>
 

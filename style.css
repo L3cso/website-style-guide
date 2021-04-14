@@ -1,0 +1,107 @@
+
+html, body {
+    text-align: center;
+}
+
+
+
+/*colors section*/
+section {
+    border: 2px solid gray;
+    padding-bottom: 20px;
+    margin: 20px auto;
+}
+
+/*h2 {
+    text-align: center;
+}*/
+
+.color {
+    display: inline-block;
+    width: 24%;
+    height: 80px;
+    text-align: center;
+}
+
+.grayblue {
+    background-color: hsl(200 100% 33%);
+    color: white;
+}
+
+.lightgray {
+    background-color: hsl(200 5% 80%);
+}
+
+.turque {
+    background-color: hsl(180 100% 33%);
+    color: white;
+}
+
+.notgold {
+    background-color: hsl(60 100% 33%);
+    color: white;
+}
+
+/*Fonts secion*/
+
+.font {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 32%;
+    padding-inline: 20px;
+}
+
+.roboto {
+    font-family: 'Roboto';
+}
+
+.playfair {
+    font-family: 'Playfair Display';
+}
+
+.monoton {
+    font-family: Monoton;
+}
+
+.font-label {
+    font-size: larger;
+    text-decoration: underline;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/*Styles section*/
+
+.textstyles {
+    text-align: left;
+}
+
+.textstyles h1 {
+    font-weight: bold;
+    font-size: 26px;
+    font-family: 'Monoton';
+}
+
+#h2 {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Monoton';
+}
+
+.textstyles p {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Roboto';
+}
+
+.textstyles blockquote {
+    font-weight: 900;
+    font-size: 26px;
+    font-family: 'Playfair Display';
+}
